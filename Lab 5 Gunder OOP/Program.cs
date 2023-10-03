@@ -7,13 +7,11 @@ namespace Lab_5_Gunder_OOP
         static void Main(string[] args)
         {
             Circle circle1 = new Circle(5);
-            double area1 = circle1.GetArea();
 
             Circle circle2 = new Circle(6);
-            double area2 = circle2.GetArea();
 
-            Console.WriteLine("Circle with Radius 5 has an area of: " + area1);
-            Console.WriteLine("Circle with Radius 6 has an area of: " + area2);
+            Console.WriteLine("Circle1 with Radius 5 has an area of: " + circle1.GetArea());
+            Console.WriteLine("Circle2 with Radius 6 has an area of: " + circle2.GetArea());
         }
     }
 
